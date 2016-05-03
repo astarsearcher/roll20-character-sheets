@@ -456,7 +456,7 @@ TAS=TAS||function(){"use strict";var e="0.2.4",n=1457098091,t={debug:{key:"debug
 <div class="sheet-body">
     <div class="sheet-3colrow">
         <div class="sheet-col">
-            <img src="http://i.imgur.com/JqdPTxp.png">
+            <img src="https://i.imgur.com/JqdPTxp.png">
         </div>
         <div class="sheet-col">
             <div class="sheet-flexbox-h">
@@ -876,7 +876,7 @@ TAS=TAS||function(){"use strict";var e="0.2.4",n=1457098091,t={debug:{key:"debug
                     Craft
                 </label>
                 <div class="sheet-dots">
-                    <input type="checkbox" class="sheet-unnamed-toggle"><span title="Show crafts" class="sheet-layer7"></span>
+                    <input type="checkbox" class="sheet-unnamed-toggle"><span title="Show" class="sheet-layer7"></span>
                     <div class="sheet-layer6">
                         <div class="sheet-trait">
                             <label>Armoring</label>
@@ -1163,7 +1163,7 @@ TAS=TAS||function(){"use strict";var e="0.2.4",n=1457098091,t={debug:{key:"debug
                     Martial Arts
                 </label>
                 <div class="sheet-dots">
-                    <input type="checkbox" class="sheet-unnamed-toggle"><span title="Show styles" class="sheet-layer5"></span>
+                    <input type="checkbox" class="sheet-unnamed-toggle"><span title="Show" class="sheet-layer5"></span>
                     <div class="sheet-layer4">
                         <div class="sheet-trait">
                             <label>Snake Style</label>
@@ -2489,36 +2489,21 @@ TAS=TAS||function(){"use strict";var e="0.2.4",n=1457098091,t={debug:{key:"debug
     </div><!-- /sheet-table intimacies -->
     
     <h1><span>Charms & Evocations</span></h1>
-    <div class="sheet-table">
-        <div class="sheet-table-header">
-            <div class="sheet-table-row">
-                <div class="sheet-table-cell">Name</div>
-                <div class="sheet-table-cell">Type</div>
-                <div class="sheet-table-cell">Duration</div>
-                <div class="sheet-table-cell">Cost</div>
-                <div class="sheet-table-cell">Book</div>
-                <div class="sheet-table-cell">Page #</div>
-                <div class="sheet-table-cell">Effect</div>
-            </div>
-        </div>
-        <fieldset class="repeating_charms sheet-table-body">
-            <div class="sheet-table-cell"><input type="text" name="attr_charm-name" style="width:100%" placeholder="Excellent Solar Larceny"></div>
-            <div class="sheet-table-cell">
-                <select name="attr_charm-type" style="width:109px">
-                    <option value=""></option>
-                    <option value="Simple">Simple</option>
-                    <option value="Supplemental">Supplemental</option>
-                    <option value="Reflexive">Reflexive</option>
-                    <option value="Permanent">Permanent</option>
-                </select>
-            </div>
-            <div class="sheet-table-cell"><input type="text" name="attr_charm-duration" placeholder="Instant"></div>
-            <div class="sheet-table-cell"><input type="text" name="attr_charm-cost" placeholder="1m/die"></div>
-            <div class="sheet-table-cell"><input type="text" name="attr_charm-book" placeholder="Core"></div>
-            <div class="sheet-table-cell"><input type="number" name="attr_charm-page" placeholder="255"></div>
-            <div class="sheet-table-cell"><input type="text" name="attr_charm-effect" style="width:100%" placeholder="Add dice to a Larceny roll"></div>
-        </fieldset>
-    </div><!-- /sheet-table charms -->
+		<div style="width: 97%" align="center">
+			<fieldset class="repeating_charms">
+				<div style="border: solid 1px; width: 33%; float: left;" align="left">
+						Name:<input type="text" style="width: 89%;" name="attr_charm-name"><br>
+						Cost:<input type="text" style="width: 30%;" name="attr_charm-cost">
+						Mins:<input type="text" style="width: 30%;" name="attr_charm-mins"><br>
+						Type:<input type="text" style="width: 30%;" name="attr_charm-type"><br>
+						Keywords:<input type="text" style="width: 81%;" name="attr_charm-keywords"><br>
+						Duration:<input type="text" style="width: 83%;" name="attr_charm-duration"><br>
+						Prequisites:<input type="text" style="width: 81%;" name="attr_charm-prereqs"><br>
+						Effect:<br>
+						<textarea style="width: 99%;" name="attr_charm-effect"></textarea>
+				</div>
+			</fieldset>
+		</div><!-- /sheet-table charms -->
     
     <h1><span>Sorceries</span></h1>
     <div class="sheet-table">

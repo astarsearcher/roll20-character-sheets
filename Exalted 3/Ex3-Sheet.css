@@ -28,7 +28,7 @@
 .sheet-footer {
     padding-top: 3px;
     text-align: right;
-    background: url(http://i.imgur.com/R0FTYGB.jpg) no-repeat;
+    background: url(https://i.imgur.com/R0FTYGB.jpg) no-repeat;
 }
 
 .sheet-footer button[type=roll] {
@@ -169,7 +169,7 @@ input[type=number]:not(:focus),
 
 h1,
 hr {
-    background-image:    url(http://i.imgur.com/TwZ84rO.jpg);
+    background-image:    url(https://i.imgur.com/TwZ84rO.jpg);
     background-position: left 50%;
     background-repeat:   repeat-x;
     background-size:     auto 10px;
@@ -226,7 +226,7 @@ input, select, option, optgroup, textarea, .sheet-normal-caps, .btn:not([type=ro
 }
 
 .sheet-motes input[type=number] {
-    width: 1.75em;
+    width: 3em;
     font-size: 16px;
 }
 
@@ -422,21 +422,6 @@ input[type=checkbox].sheet-unnamed-toggle:checked + span + div {
     margin: 0;
 }
 
-.repcontrol_del,
-.repcontrol_move {
-    z-index: 11;
-    position: absolute;
-}
-.repcontrol_del { right: 0; }
-
-.editmode + .repcontrol .repcontrol_edit {
-    float: none !important;
-    position: relative;
-    left: calc(100% - 52px);
-}
-
-.repcontainer { margin-bottom: 5px; }
-
 /* Rotating click to set dots */
 div.sheet-dots,
 div.sheet-dots input[class^=sheet-dots],
@@ -525,34 +510,34 @@ input.sheet-dots9:checked ~ input.sheet-dots10 { z-index: 3; }
 .sheet-layer6 input.sheet-dots8:checked ~ input.sheet-dots9,
 .sheet-layer6 input.sheet-dots9:checked ~ input.sheet-dots10 { z-index: 8; }
 
-div.sheet-dots input.sheet-dots0:checked + span::before { content: url(http://i.imgur.com/brHawNF.png); }
-div.sheet-dots input.sheet-dots1:checked + span::before { content: url(http://i.imgur.com/FxaE1ej.png); }
-div.sheet-dots input.sheet-dots2:checked + span::before { content: url(http://i.imgur.com/mmaaeuA.png); }
-div.sheet-dots input.sheet-dots3:checked + span::before { content: url(http://i.imgur.com/XzoEKTo.png); }
-div.sheet-dots input.sheet-dots4:checked + span::before { content: url(http://i.imgur.com/7Km42YB.png); }
-div.sheet-dots input.sheet-dots5:checked + span::before { content: url(http://i.imgur.com/fQOCs6f.png); }
-div.sheet-dots input.sheet-dots6:checked + span::before { content: url(http://i.imgur.com/5viTRx5.png); }
-div.sheet-dots input.sheet-dots7:checked + span::before { content: url(http://i.imgur.com/r51uCCA.png); }
-div.sheet-dots input.sheet-dots8:checked + span::before { content: url(http://i.imgur.com/QlLZpUb.png); }
-div.sheet-dots input.sheet-dots9:checked + span::before { content: url(http://i.imgur.com/mnoMk57.png); }
-div.sheet-dots input.sheet-dots10:checked + span::before { content: url(http://i.imgur.com/jhxHSkd.png); }
+div.sheet-dots input.sheet-dots0:checked + span::before { content: url(https://i.imgur.com/brHawNF.png); }
+div.sheet-dots input.sheet-dots1:checked + span::before { content: url(https://i.imgur.com/FxaE1ej.png); }
+div.sheet-dots input.sheet-dots2:checked + span::before { content: url(https://i.imgur.com/mmaaeuA.png); }
+div.sheet-dots input.sheet-dots3:checked + span::before { content: url(https://i.imgur.com/XzoEKTo.png); }
+div.sheet-dots input.sheet-dots4:checked + span::before { content: url(https://i.imgur.com/7Km42YB.png); }
+div.sheet-dots input.sheet-dots5:checked + span::before { content: url(https://i.imgur.com/fQOCs6f.png); }
+div.sheet-dots input.sheet-dots6:checked + span::before { content: url(https://i.imgur.com/5viTRx5.png); }
+div.sheet-dots input.sheet-dots7:checked + span::before { content: url(https://i.imgur.com/r51uCCA.png); }
+div.sheet-dots input.sheet-dots8:checked + span::before { content: url(https://i.imgur.com/QlLZpUb.png); }
+div.sheet-dots input.sheet-dots9:checked + span::before { content: url(https://i.imgur.com/mnoMk57.png); }
+div.sheet-dots input.sheet-dots10:checked + span::before { content: url(https://i.imgur.com/jhxHSkd.png); }
 
-div.sheet-dots-full input.sheet-dots0:checked + span::before { content: url(http://i.imgur.com/aoLkPUD.png); }
-div.sheet-dots-full input.sheet-dots1:checked + span::before { content: url(http://i.imgur.com/yuMkIYx.png); }
-div.sheet-dots-full input.sheet-dots2:checked + span::before { content: url(http://i.imgur.com/v8N22sh.png); }
-div.sheet-dots-full input.sheet-dots3:checked + span::before { content: url(http://i.imgur.com/f4los8X.png); }
-div.sheet-dots-full input.sheet-dots4:checked + span::before { content: url(http://i.imgur.com/JcMtOks.png); }
-div.sheet-dots-full input.sheet-dots5:checked + span::before { content: url(http://i.imgur.com/b5t5pWv.png); }
-div.sheet-dots-full input.sheet-dots6:checked + span::before { content: url(http://i.imgur.com/DrkRvoQ.png); }
-div.sheet-dots-full input.sheet-dots7:checked + span::before { content: url(http://i.imgur.com/P8edx1p.png); }
-div.sheet-dots-full input.sheet-dots8:checked + span::before { content: url(http://i.imgur.com/lJPrvey.png); }
-div.sheet-dots-full input.sheet-dots9:checked + span::before { content: url(http://i.imgur.com/updBVIp.png); }
-div.sheet-dots-full input.sheet-dots10:checked + span::before { content: url(http://i.imgur.com/1ymfexj.png); }
+div.sheet-dots-full input.sheet-dots0:checked + span::before { content: url(https://i.imgur.com/aoLkPUD.png); }
+div.sheet-dots-full input.sheet-dots1:checked + span::before { content: url(https://i.imgur.com/yuMkIYx.png); }
+div.sheet-dots-full input.sheet-dots2:checked + span::before { content: url(https://i.imgur.com/v8N22sh.png); }
+div.sheet-dots-full input.sheet-dots3:checked + span::before { content: url(https://i.imgur.com/f4los8X.png); }
+div.sheet-dots-full input.sheet-dots4:checked + span::before { content: url(https://i.imgur.com/JcMtOks.png); }
+div.sheet-dots-full input.sheet-dots5:checked + span::before { content: url(https://i.imgur.com/b5t5pWv.png); }
+div.sheet-dots-full input.sheet-dots6:checked + span::before { content: url(https://i.imgur.com/DrkRvoQ.png); }
+div.sheet-dots-full input.sheet-dots7:checked + span::before { content: url(https://i.imgur.com/P8edx1p.png); }
+div.sheet-dots-full input.sheet-dots8:checked + span::before { content: url(https://i.imgur.com/lJPrvey.png); }
+div.sheet-dots-full input.sheet-dots9:checked + span::before { content: url(https://i.imgur.com/updBVIp.png); }
+div.sheet-dots-full input.sheet-dots10:checked + span::before { content: url(https://i.imgur.com/1ymfexj.png); }
 
-div.sheet-damage-box input.sheet-dots0:checked + span::before { content: url(http://i.imgur.com/HAiWBJU.png); }
-div.sheet-damage-box input.sheet-dots1:checked + span::before { content: url(http://i.imgur.com/ZA7t2og.png); }
-div.sheet-damage-box input.sheet-dots2:checked + span::before { content: url(http://i.imgur.com/Skkftsx.png); }
-div.sheet-damage-box input.sheet-dots3:checked + span::before { content: url(http://i.imgur.com/WwEsO6c.png); }
+div.sheet-damage-box input.sheet-dots0:checked + span::before { content: url(https://i.imgur.com/HAiWBJU.png); }
+div.sheet-damage-box input.sheet-dots1:checked + span::before { content: url(https://i.imgur.com/ZA7t2og.png); }
+div.sheet-damage-box input.sheet-dots2:checked + span::before { content: url(https://i.imgur.com/Skkftsx.png); }
+div.sheet-damage-box input.sheet-dots3:checked + span::before { content: url(https://i.imgur.com/WwEsO6c.png); }
 
 input.sheet-dots0,
 input[class^=sheet-dots]:checked + span + input { cursor: pointer; }
@@ -592,9 +577,3 @@ input[class^=sheet-dots]:checked + span + input { cursor: pointer; }
 }
 
 .sheet-health-level select::-ms-expand { display: none; }
-
-@font-face {
-    font-family: Cimiez;
-    src: local('Cimiez Roman PDF.ttf'),
-         url(http://lithl.info/cimiez.ttf) format('truetype');
-}
